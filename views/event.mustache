@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alumni Connect</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.js"
+        integrity="sha256-UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            background-color: #DDF2FD;
+        }
+
+        nav {
+            background-color: #427D9D;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 50%;
+            border-radius: 15px;
+            margin-top: 20px;
+        }
+
+        .navbar-brand {
+            font-size: 24px;
+            color: #DDF2FD;
+            text-decoration: none;
+        }
+
+        .navbar-nav {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .nav-item {
+            margin-right: 20px;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: #DDF2FD;
+            font-size: 18px;
+        }
+
+        .nav-link:hover {
+            border-bottom: 2px solid #DDF2FD;
+            padding-bottom: 3px;
+        }
+
+        .wrapper {
+            min-height: 100%;
+        }
+
+        .content {
+            padding-bottom: 200px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .footer {
+            background-color: #DDF2FD;
+            color: #427D9D;
+            border: 10px solid #427D9D;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .footer-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .footer-column {
+            flex: 1;
+            text-align: center;
+        }
+
+        .form-control {
+            padding: 10px;
+            margin-right: 10px;
+            border: 1px solid #9BBEC8;
+        }
+
+        .subscribe-btn {
+            background-color: #9BBEC8;
+            color: #427D9D;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .subscribe-btn:hover {
+            background-color: #427D9D;
+            color: #DDF2FD;
+        }
+
+        .social-link {
+            margin-right: 10px;
+        }
+
+        .welcome {
+            color: #427D9D;
+            font-size: 25px;
+            text-align: center;
+        }
+
+        .event-container {
+            margin-top: 20px;
+            width: 50%;
+        }
+
+        .event {
+            background-color: #427D9D;
+            color: #DDF2FD;
+            border-radius: 10px;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .event h5 {
+            margin: 0;
+            font-size: 20px;
+        }
+
+        .event p {
+            margin: 0;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="content">
+        <nav>
+            <a class="navbar-brand" href="/">Alumni Connect</a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="welcome">
+            <h1>Welcome to Alumni Connect Events</h1>
+        </div>
+
+        <div class="event-container">
+
+            <div class="event">
+                <h5>Event Name</h5>
+                <p>Date: Event Date</p>
+                <p>Created by: Event Creator</p>
+                <p>Description: Brief event description.</p>
+            </div>
+
+            <div class="event">
+                <h5>Event Name</h5>
+                <p>Date: Event Date</p>
+                <p>Created by: Event Creator</p>
+                <p>Description: Brief event description.</p>
+            </div>
+
+            <div class="event">
+                <h5>Event Name</h5>
+                <p>Date: Event Date</p>
+                <p>Created by: Event Creator</p>
+                <p>Description: Brief event description.</p>
+            </div>
+
+            <div class="event">
+                <h5>Event Name</h5>
+                <p>Date: Event Date</p>
+                <p>Created by: Event Creator</p>
+                <p>Description: Brief event description.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h4>Contact</h4>
+                <p>Email: alumniConnect@alueducation.com</p>
+                <p>Phone: +230 5987 0546</p>
+            </div>
+            <div class="footer-column">
+                <h4>Stay Tuned</h4>
+                <a href="#" class="social-link" target="_blank"><img src="images/facebook.png" alt="Facebook"></a>
+                <a href="#" class="social-link" target="_blank"><img src="images/twitter.png" alt="Twitter"></a>
+                <a href="#" class="social-link" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+            </div>
+            <div class="footer-column">
+                <h4>Talk to us!</h4>
+                <form>
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Your email">
+                        <button class="subscribe-btn" type="button">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
